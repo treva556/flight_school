@@ -65,6 +65,11 @@ function Body() {
           </div>
         </div>
       </div>
+
+       <div>  Partners </div> 
+        <div className=' mb-8'> Testimonials  </div>
+
+
     </div>
   );
 }
