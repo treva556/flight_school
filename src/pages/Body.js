@@ -31,13 +31,13 @@ function Body() {
         <h3 className='mb-3 font-semibold font-mono'>Our Services</h3>
         <div className='grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3'>
           <div className='p-14 allcolor text-white'>
-            1
+            1. PPL
           </div>
           <div className='p-14 allcolor text-white'>
-            2
+            2. CPL
           </div>
           <div className='p-14 allcolor text-white'>
-            3
+            3. A.ENGINeering
           </div>
         </div>
       </div>
