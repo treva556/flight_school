@@ -12,9 +12,10 @@ function App() {
     <div className="App">
       <header className=" bg-blue-900 p-1 text-white font-mono">
       <nav className="bg-blue-900 text-white p-4 flex justify-between">
-        <div>WFS</div>
+        <div
+        > <a href="#/" > WFS</a></div>
         <ul className="flex space-x-6">
-            <li><a href="#home">Home</a></li>
+            {/* <li><a href="#home">Home</a></li> */}
             <li><a href="#about">About Us</a></li>
             {/* <li><a href="#services">Services</a></li>
             <li><a href="#accommodation">Accommodation</a></li>
