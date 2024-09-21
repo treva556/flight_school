@@ -37,7 +37,7 @@ function Body() {
       </div>
 
       {/* <<<<<<<>>>>>>></> */}
-      <div className="p-8 border border-black mt-3 mx-8 lg:mx-32 flex flex-col lg:flex-row items-center lg:justify-center">
+      <div className="p-2 border border-black mt-3 mx-8 lg:mx-32 flex flex-col lg:flex-row items-center lg:justify-center">
         <p className="lg:w-1/2 text-center lg:text-left mb-4 lg:mb-0">
           “Our team of experienced instructors and aviation professionals is dedicated to providing personalized and comprehensive training programs. 
           With state-of-the-art facilities, including advanced flight simulators and a diverse fleet of aircraft, we offer students an unparalleled learning experience.
