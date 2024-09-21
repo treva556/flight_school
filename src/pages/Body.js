@@ -11,7 +11,7 @@ function Body() {
   return (
     <div className="App">
 <div
-        className="relative w-full h-64 bg-cover bg-center"
+        className="relative w-full h-96 bg-cover bg-center"
         style={{ backgroundImage: `url(${Top})` }} 
       >
         <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-white">
@@ -35,25 +35,29 @@ function Body() {
           At Wise School, we are dedicated to providing top-tier flight training and aviation services. Our mission is to cultivate skilled, safe, and knowledgeable pilots through innovative training methods and a commitment to excellence.
         </div>
       </div>
+
+      {/* <<<<<<<>>>>>>></> */}
       <div className="p-8 border border-black mt-3 mx-8 lg:mx-32 flex flex-col lg:flex-row items-center lg:justify-center">
         <p className="lg:w-1/2 text-center lg:text-left mb-4 lg:mb-0">
-          “Our team of experienced instructors and aviation professionals is dedicated to providing personalized and comprehensive training programs. With state-of-the-art facilities, including advanced flight simulators and a diverse fleet of aircraft, we offer students an unparalleled learning experience. We are passionate about aviation and committed to supporting our students in achieving their flying goals.”
+          “Our team of experienced instructors and aviation professionals is dedicated to providing personalized and comprehensive training programs. 
+          With state-of-the-art facilities, including advanced flight simulators and a diverse fleet of aircraft, we offer students an unparalleled learning experience.
+           We are passionate about aviation and committed to supporting our students in achieving their flying goals.”
         </p>
-        <img src={Mid} alt="Flight Academy" className="w-full max-w-full lg:max-w-[300px] lg:w-auto lg:ml-4 mt-4 lg:mt-0" />
+        <img src={Mid} alt="Flight Academy" className="w-1/2 max-w-full md:w-1/2  lg:max-w-[300px] lg:w-auto lg:ml-4 mt-4 lg:mt-0" />
       </div>
 
       <div className='bg-white p-10'>
           <h3 className='mb-3 font-semibold font-mono'>Our Courses</h3>
           <div className='grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3'>
-              <div className='p-14 allcolor text-white'>
+              <div className=' border-black  border-4 p-14 allcolor text-white'>
                 <h4 className="font-bold">1. Private Pilot License (PPL)</h4>
                 <p>Duration: 3 months | Cost: $10,000</p>
               </div>
-              <div className='p-14 allcolor text-white'>
+              <div className='p-14 border-black  border-4  allcolor text-white'>
                 <h4 className="font-bold">2. Commercial Pilot License (CPL)</h4>
                 <p>Duration: 6 months | Cost: $20,000</p>
               </div>
-              <div className='p-14 allcolor text-white'>
+              <div className='border-black  border-4 p-14   allcolor text-white'>
                 <h4 className="font-bold">3. Aviation Engineering</h4>
                 <p>Duration: 1 year | Cost: $15,000</p>
               </div>
@@ -108,7 +112,7 @@ function Body() {
         </div>
       </div>
 
-       <div>  Partners </div> 
+       {/* <div>  Partners </div>  */}
         {/* <div className=' mb-8'> Testimonials  </div> */}
         <div className='bg-gray-100 p-10'>
           <h3 className='mb-3 font-semibold font-mono'>Frequently Asked Questions</h3>
