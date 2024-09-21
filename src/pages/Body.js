@@ -68,13 +68,13 @@ function Body() {
       <div className='bg-white p-4'>
         <div className='grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3'>
           <div className='p-14'>
-            <img src={MId1} alt="Flight Academy" className="w-full max-w-full lg:max-w-[400px]" />
+            <img src={MId1} alt="Flight Academy" className="w-full max-w-full lg:max-w-[600px]" />
           </div>
           <div className='p-6'>
             At WFS, our top-quality fleet and expert instructors provide the best training experience. Our aircraft are equipped with the latest technology, ensuring safe and effective learning. Our personalized instruction helps students build confidence and skills, preparing them for successful aviation careers.
           </div>
           <div className='p-14 allcolor text-white'>
-            <img src={MId2} alt="Flight Academy" className="w-full max-w-full lg:max-w-[200px]" />
+            <img src={MId2} alt="Flight Academy" className="w-full max-w-full lg:max-w-[300px]" />
           </div>
         </div>
       </div>
